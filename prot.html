@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prot.css">
+    <script src="https://kit.fontawesome.com/f0ba5e488f.js" crossorigin="anonymous"></script>
+    <title>Avraham Life Portfoilio</title>
+    <script src="prot.js"></script>
+</head>
+
+<body>
+    
+
+
+      
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+               
+                <a href="#header"><img src="AvrahamFont.png"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li> 
+                    <li><a href="#portfoilo">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+        
+            <div class="header-text">
+                <h1 class="animated-h1">Hello,I'm <span>Avraham Life</span> </h1>
+                <br>
+                <p class="p0">I AM A <span class="FullStackBold">FULL STACK DEVELOPER</span></p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Avraham.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class ="sub-title">About me <meta http-equiv="X-UA-Compatible" content="IE=7"></h1>
+                    <div id="p-container">
+                    <p class="p1">Highly skilled and motivated full-stack developer with a passion for delivering cutting-edge solutions to complex problems.
+                        <br> </p>
+                         <p class="p2">Finished a FullStack course with aquired langueages of HTML, CSS, JavaScript for Frontend development and NodeJS and MongoDB for Backend development.
+                         <br></p>
+                         <p class="p3"> A quick learner and always seeking to expand my knowledge and skills.
+                          <br></p>
+
+                         <p class="p4"> Strong technical abilities and poised to make a significant impact in the world of software development.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div id="portfoilo">
+        <div class="container">
+            <h1 class="sub-title">Portfoilo</h1>
+            <div class="work-list">
+              
+                  
+                   
+                  <div class="card">
+                  <div class="content">
+                    <h2>Who's in My Room</h2>
+                    <p class="p5">Detects Who Enters Your Room At Anytime</p>
+                    <a href="https://avraham123.github.io/Who-is-in-My-Room/text.html" target="_blank">Enter</a>
+                  </div>
+        <img src="MAGLASS.gif" alt="Who's in My Room">
+    </div>
+
+    <div class="card">
+        <div class="content">
+          <h2>To-Do List</h2>
+          <p class="p5">List Everything That You Have To Do</p>
+          <a href="https://avraham123.github.io/todolistfinal/todo.html" target="_blank">Enter</a>
+        </div>
+<img src="CALENDER.gif" alt="List">
+</div>
+
+<div class="card">
+    <div class="content">
+      <h2>Pong Game</h2>
+      <p class="p5">Enjoy The Classic Pong game</p>
+      <a href="https://avraham123.github.io/ponggame/war.html" target="_blank">Enter</a>
+    </div>
+<img src="PONG.gif" alt="PONG">
+</div>
+
+<div class="card">
+    <div class="content">
+      <h2>Calculator</h2>
+      <p class="p5">Calculator For Everyday Use</p>
+      <a href="https://avraham123.github.io/calculator/calc.html" target="_blank">Enter</a>
+    </div>
+<img src="CALCULATOR.gif" alt="Calculator">
+</div>
+
+<div class="card">
+    <div class="content">
+      <h2>Snake Game</h2>
+      <p class="p5">Classic Snake Game</p>
+      <a href="https://avraham123.github.io/snake/snake.html" target="_blank">Enter</a>
+    </div>
+<img src="snake.gif" alt="Snake">
+</div>
+
+<div class="card">
+    <div class="content">
+      <h2>Paint</h2>
+      <p class="p5">Be Creative and Doodle!</p>
+      <a href="https://avraham123.github.io/paint/paint.html" target="_blank">Enter</a>
+    </div>
+<img src="paint.gif" alt="Snake">
+</div>
+
+
+
+                        
+                    
+               
+           
+        </div>
+    </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>avraham.life2000@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0534323378</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/avraham-life-a94345221/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/avrahamlife/"target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <div id="resume">
+                    <a href="CV_Avraham_Life.pdf" download class="btn">Download CV</a>
+                </div>
+                </div>
+        </div>
+        <div class="coyright">
+            <p>Copyright © 2023 Avraham Life. All rights reserved. </p>
+        </div>
+    </div>
+    
+</body>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+   
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,794 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poopins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #d7e7e9;
+  background-size: cover;
+    color: rgb(255, 255, 255);
+
+    @media only screen and (max-width: 500px) {
+        body {
+          font-size: 14px;
+        }
+      }
+    }
+      
+    
+
+
+.card
+{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(0, 49, 81);
+    flex-basis: calc(33.33% - 20px); /* adjust the percentage as needed, and consider adding a margin/padding */
+}
+
+.card1
+{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(0, 49, 81);
+    flex-basis: calc(33.33% - 20px); /* adjust the percentage as needed, and consider adding a margin/padding */
+}
+
+.card2
+{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(0, 49, 81);
+    flex-basis: calc(33.33% - 20px); /* adjust the percentage as needed, and consider adding a margin/padding */
+}
+.card3
+{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(0, 49, 81);
+    flex-basis: calc(33.33% - 20px); /* adjust the percentage as needed, and consider adding a margin/padding */
+}
+
+.card4
+{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(0, 49, 81);
+    flex-basis: calc(33.33% - 20px); /* adjust the percentage as needed, and consider adding a margin/padding */
+}
+
+.card5
+{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(0, 49, 81);
+    flex-basis: calc(33.33% - 20px); /* adjust the percentage as needed, and consider adding a margin/padding */
+}
+
+
+
+
+.card  img
+{
+   position:absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   height: 290px;
+   transition: 0.5s;
+   
+}
+
+.card:hover img
+{
+    left: 80%;
+    height: 310px;
+}
+
+ .card .content 
+ {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+ }
+
+.card:hover .content
+{
+    opacity: 1;
+    visibility: visible;
+    left: 0%;
+}
+
+
+.card .content h2
+{
+    color: rgb(255, 255, 255);
+    
+    font-size: 1.5em;
+    line-height: 1.5em;
+    cursor:default;
+}
+
+.card .content p
+{
+    color: rgb(255, 255, 255);
+    margin-top: 1px;
+    text-align: center;
+}
+
+.p5{
+    font-size: 20px;
+    background-image:linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255)); ;
+    cursor:default;
+    justify-content:flex-start;
+    text-align:justify;
+}
+
+.p5:hover {
+	transform: translateX(0%);
+    font-size: 20px;
+     background-image:linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255)); ;
+}
+.card .content a
+{
+    position: relative;
+    display: inline-block;
+    color: #111;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+
+.card .content a:hover
+{
+    background: #111;
+    color: #FFF;
+}
+
+
+
+@media (max-width: 991px)
+{
+    .card{
+        position: relative;
+        width: auto;
+        max-width: 600px;
+        transition: 0.5s;
+        align-items: flex-start;
+    }
+
+    .card:hover
+    {
+        height: 600px;
+    }
+
+    .card:hover img
+    {
+        left: 50%;
+        height: 350px;
+    }
+    .card .content
+    {
+        width: 100%;
+        left: 0;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 420px)
+{
+    .card .content
+    {
+        padding: 30px;
+    }
+
+    .card:hover img
+    {
+        height: 300px;
+    }
+}
+
+
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/flower.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.container{
+    padding: 10px 10%;
+   text-align: center;
+   
+  
+  
+  
+  
+   
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    color: #00234c;
+    font-size: 20px;
+    
+    margin-top: 60px;
+    background-image: linear-gradient(to right, rgb(8, 8, 111), rgb(19, 4, 95));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px transparent;
+  transition: all 0.5s ease;
+
+ }
+
+ 
+
+
+
+
+ #p-container  :hover {
+    transform: translateY(-5px);
+    font-size: 20px;
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)); ;
+    cursor:default;
+ }
+
+ p:hover{
+    transform: translateY(-5px);
+    color:rgb(72, 74, 132);
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)); ;
+    cursor:default;
+ }
+
+ .p1:hover {
+	transform: translateY(-5px);
+    font-size: 20px;
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)); ;
+    cursor:default;
+}
+
+.p2:hover {
+	transform: translateY(-5px);
+    font-size: 20px;
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)); ;
+    cursor:default;
+}
+
+.p3:hover {
+	transform: translateY(-5px);
+    font-size: 20px;
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)); ;
+    cursor:default;
+}
+
+.p4:hover {
+	transform: translateY(-5px);
+    font-size: 20px;
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)); ;
+    cursor:default;
+}
+
+ @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+  .FullStackBold
+   {
+    color:#00234c
+    
+  }
+
+  
+ 
+ h1 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+     
+    
+  }
+  
+  
+
+
+
+
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: rgb(7, 4, 102);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    width: 100%;
+}
+
+nav ul li a:hover{
+    width: 105%;
+    transition: transform 0.5s;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    color: rgb(0, 4, 109);
+    background:rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+nav ul li a:focus{
+    color: #0c0470;
+background: black;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #9ed8ff 0px 0px 20px, #63e0ff 0px 0px 30px, #55a5f5 0px 0px 40px, #002c71 0px 0px 50px, #00234c 0px 0px 75px;
+}
+.header-text{
+    margin-top: 10%;
+    font-size: 25px;
+}
+.header-text h1{
+    position:relative;
+    text-align: center;
+    font-size: 85px;
+    margin-top: 20px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    transition: font-size 1s ease;
+	animation: h1-animation 3s linear;
+    animation: 
+      typing 2s steps(30, end),
+      blink-caret .5s step-end infinite;
+}
+.header-text h1 span{
+    color: rgb(0, 49, 81);
+}
+
+
+
+.animated.h1{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 20px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    transition: font-size 1s ease;
+	animation: h1-animation 3s linear;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+}
+
+.animated.h1:hover
+{
+    cursor:default;
+}
+
+.p0:hover
+{
+    font-size: 20px;
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)); ;
+    cursor:default;
+}
+
+h1:hover
+{
+    cursor:default;
+}
+
+@keyframes h1-animation {
+	0% {
+		font-size: 62px;
+	}
+	50% {
+		font-size: 70px;
+	}
+	100% {
+		font-size: 55px;
+	}
+}
+
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis:35%;
+    text-align: center;
+    width: 100%;
+  height: 500px; /* or any other height you prefer */
+  
+  
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 200px;
+    transition: all 0.2s ease-in-out;
+    
+  
+}
+.about-col-1 img:hover{
+    
+    border-radius: 50px;
+    
+    transform: translateY(-5px);
+}
+
+.about-col-2{
+    flex-basis:60%;
+
+}
+
+
+
+
+.sub-title{
+    font-size:60px ;
+    font-weight: 600;
+    color: rgb(0, 49, 81);
+}
+
+.sub-title:hover{
+    font-size:60px ;
+    font-weight: 600;
+    color: rgb(0, 49, 81);
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight:500 ;
+    cursor: pointer;
+    position: relative;
+}
+#portfolio{
+    padding: 50px 0;
+
+}
+.work-list{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  justify-content:center;
+  margin: 0 auto;
+  max-width: 1400px; /* adjust to your desired width */
+}
+.work{
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    
+    display:block;
+    transition: transform 0.5s;
+    border: 6px solid rgb(255, 255, 255);
+    border-top-width: 6px;
+    border-right-style:solid;
+    border-color: rgb(0, 5, 107);
+    border-left-width: 6px;
+    border-radius: 25px;
+}
+
+.work img:hover{
+    width: 100%;
+    
+    display:block;
+    transition: transform 0.5s;
+    border: 6px solid rgb(255, 255, 255);
+    border-width: 15px;
+    border-right-style:solid;
+    border-color: rgb(255, 255, 255);
+    
+    border-radius: 25px;
+}
+
+/*.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(75, 144, 255, 0.563));
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow:hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column-reverse;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+    }
+    */
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.layer a{
+    margin-top: 20px;
+    color: rgb(0, 0, 108);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover .layer{
+   height: 100%;
+}
+
+.contact-left{
+    flex-basis: 35%;
+    text-align: center;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: rgb(0, 65, 109);
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:rgb(0, 64, 107);
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color:rgb(0, 0, 0);
+    transform: translateY(-5px);
+}
+.btn{
+    display: block;
+    margin:50px auto;
+    width: fit-content;
+    border: 1px solid rgb(1, 67, 110);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition:background 0.5s ;
+    background: rgb(0, 67, 111);
+}
+.btn:hover{
+    background:  rgb(0, 0, 0);
+    
+   
+}
+.btn.btn2{
+    display: inline-block;
+    background-color:rgb(2, 70, 115) ;
+
+}
+.coyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 300;
+    margin-top: 20px;
+    background: #d7e7e9;
+}
+nav .fas{
+    display: none;
+}
+@media only screen and (max-width:600px){
+    .header-text{
+        margin-top: 30%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+
+    }
+    nav ul{
+        background-color: rgb(0, 54, 91);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul:hover{
+        width: 210px;
+    } 
+    
+    nav ul li{
+        display: block;
+        margin: 25px;
+        width: 100%;
+        transition: transform 0.5s;
+    }
+
+
+
+
+
+    nav ul li:hover{
+        width: 105%;
+    }
+
+    
+
+
+    
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+
+}
+.custom-shape-divider-bottom-1675947065 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1675947065 svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 174px;
+}
+
+.custom-shape-divider-bottom-1675947065 .shape-fill {
+    fill: #020465;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret
+{
+    from, to { border-color: transparent }
+  50% { border-color: rgb(0, 60, 93) }
+}
