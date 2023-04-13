@@ -314,7 +314,19 @@ p {
  }
 
  
-
+ #back-to-top-btn {
+    display: none;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #55a5f5;
+  }
+  
+  #back-to-top-btn:hover {
+    cursor: pointer;
+  }
+  
 
 
 
@@ -791,18 +803,30 @@ nav .fas{
         font-size: 20px;
     }
     .header-text h1{
-        font-size: 20px;
-        text-align: justify;
+        font-size: 25px;
+        text-align:justify;
         display: inline-block;
-
+position: static;
+word-wrap: break-word;
     }
+    
+   
 
     .header-text h1 h1 span {
         text-align: center;
         font-size: 20px;
-        display:inline-flex
+        display:inline-flex;
+        word-wrap: break-word;
+        position: static;
 
 
+    }
+
+    .animated.h1
+    {
+        font-size: 30px;
+        word-wrap: break-word;
+        position: static;
     }
     nav .fas{
         display: block;
@@ -812,13 +836,24 @@ nav .fas{
     }
 
     
+
+    .card img
+    {
+        height:220px;
+    }
+
+    .card img:hover
+    {
+        height: 270px;
+    }
+    
     nav ul{
         background-color: rgb(0, 54, 91);
         
         position: fixed;
         top: 0;
         right: -200px;
-        width: 200px;
+        width: 130px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -832,17 +867,20 @@ nav .fas{
     nav ul li a
 {
     color: #FFF;
+    font-size: 15px;
 }    
     nav ul li{
         display: block;
         margin: 25px;
-        width: 100%;
+        width: 90%;
         transition: transform 0.5s;
         color: #FFF;
     }
 
 
-
+p{
+    font-size: 20px;
+}
 
 
     nav ul li:hover{
